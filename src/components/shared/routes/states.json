@@ -199,5 +199,16 @@
     "menuName": "Sobre",
     "group": "Outros",
     "icon": "ion-information-circled"
+  },
+  {
+    "name": "app.transparencyExpenses",
+    "url": "transparency/expenses",
+    "type": "load",
+    "src": "components/secont/transparency/expenses/index",
+    "menu": true,
+    "editable": false,
+    "group": "Transparência",
+    "menuName": "Despesas",
+    "icon": "ion-information-circled"
   }
 ]

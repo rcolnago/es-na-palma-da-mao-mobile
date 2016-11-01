@@ -18,6 +18,7 @@ import dioComponent from '../dio/index';
 import newsComponent from '../news/index';
 import sepComponent from '../sep/index';
 import calendarComponent from '../calendar/index';
+import transparencyComponent from '../secont/transparency/index';
 
 let dependencies = [
     'ionic',
@@ -27,6 +28,7 @@ let dependencies = [
     'ngAnimate',
     'ionic-native-transitions',
     'ui.router',
+    'chart.js',
 
     // components
     shared.name,
@@ -42,7 +44,8 @@ let dependencies = [
     newsComponent.name,
     dioComponent.name,
     sepComponent.name,
-    calendarComponent.name
+    calendarComponent.name,
+    transparencyComponent.name
 ];
 
 export default angular.module( 'app', dependencies )

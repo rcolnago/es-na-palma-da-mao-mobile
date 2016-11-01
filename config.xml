@@ -108,4 +108,19 @@
     <plugin name="phonegap-plugin-barcodescanner" spec="~6.0.2">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="undefined"/>
     </plugin>
+    <plugin name="cordova-plugin-facebook4" spec="~1.7.2">
+       <variable name="APP_ID" value="926428880739042" />
+       <variable name="APP_NAME" value="Acesso Cidadão" />
+   </plugin>
+   <plugin name="phonegap-plugin-push" spec="https://github.com/prodest/phonegap-plugin-push">
+       <variable name="SENDER_ID" value="716051840979" />
+   </plugin>
+   <plugin name="cordova-plugin-googleplus" spec="https://github.com/vizeke/cordova-plugin-googleplus">
+       <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.716051840979-no1a2uaro7tun9f7timu90c7rpoe7heg" />
+   </plugin>
+   <plugin name="cordova-plugin-digits" spec="https://github.com/prodest/cordova-plugin-digits.git">
+       <variable name="FABRIC_API_KEY" value="a4f711c1567fabce445c8ca1ffa5682fb2b8b7c0" />
+       <variable name="FABRIC_CONSUMER_KEY" value="ZmkPc6h1l0VTFMvEpOzxnHrUk" />
+       <variable name="FABRIC_CONSUMER_SECRET" value="LNFsM9LsITdoPHNx7IUJbvhLiIguYPusqmKLZzwYPh4YfVcLdw" />
+   </plugin>
 </widget>
