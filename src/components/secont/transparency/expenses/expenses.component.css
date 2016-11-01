@@ -1,0 +1,8 @@
+#expenses-component .percentage {
+    margin: auto;
+    font-weight: bold;
+}
+
+#expenses-component .expense-label {
+    white-space: normal;
+}

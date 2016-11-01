@@ -15,7 +15,7 @@
     "menu": false,
     "editable": false
   },
-   {
+  {
     "name": "app.dashboard.newsHighlights",
     "url": "news/highlights",
     "type": "load",
@@ -96,6 +96,17 @@
     "menuName": "Consulta Processo",
     "group": "Principal",
     "icon": "fa fa-search"
+  },
+  {
+    "name": "app.transparencyExpenses",
+    "url": "transparency/expenses",
+    "type": "load",
+    "src": "components/secont/transparency/expenses/index",
+    "menu": true,
+    "editable": false,
+    "group": "Transparência",
+    "menuName": "Despesas",
+    "icon": "ion-information-circled"
   },
   {
     "name": "app.driverLicenseStatus",
@@ -198,17 +209,6 @@
     "editable": true,
     "menuName": "Sobre",
     "group": "Outros",
-    "icon": "ion-information-circled"
-  },
-  {
-    "name": "app.transparencyExpenses",
-    "url": "transparency/expenses",
-    "type": "load",
-    "src": "components/secont/transparency/expenses/index",
-    "menu": true,
-    "editable": false,
-    "group": "Transparência",
-    "menuName": "Despesas",
     "icon": "ion-information-circled"
   }
 ]
