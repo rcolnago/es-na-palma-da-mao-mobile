@@ -239,3 +239,6 @@ ion-header-bar a.button.button {
 md-toolbar.md-tall .md-button.md-accent.md-fab.fab-toolbar-medium {
 	margin-top: 43px;
 }
+
+
+.md-subheader-content { font-weight: bold;}

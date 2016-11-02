@@ -1,5 +1,3 @@
-import { IScope } from 'angular';
-
 export class GraphService {
 
     constructor() {

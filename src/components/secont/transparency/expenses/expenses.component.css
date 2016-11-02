@@ -1,8 +1,68 @@
-#expenses-component .percentage {
+/*#expenses-component .md-button.md-espm-theme.md-fab {
+    background-color: #fff  !important;
+    color: #999 !important;
+    position: absolute;
+    right: 0;
+    top: 8px;
+}*/
+
+#expenses-component .summary .expense {
+    padding: 0 8px;
+}
+#expenses-component .summary .expense.labeled {
+    border:none !important;
+    padding: 0 16px;
+}
+
+ #btn-graph {
+    margin: 3px;
+    background-color: #fff  !important;
+    color: #999 !important;
+    position: absolute;
+    right: 5px;
+    top: 55px;
+}
+
+#expenses-component .summary .summary-header {
+    position: relative;
+}
+#expenses-component .summary .summary-header .md-subheader-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#expenses-component .summary .summary-header .md-subheader-inner {
+    padding: 24px;
+}
+
+#expenses-component .summary .summary-header-total {
+    color: #c86673;
+}
+
+#expenses-component .summary .summary-header-sort-button{
+    color: #999;
+    position: absolute;
+    top: -10px;
+    right:-10px;
+    margin: 0;
+}
+#expenses-component .summary .summary-header-sort-button.pad{
+    right: 25px;
+}
+#expenses-component .summary .expense h3 {
+    font-size: 1.1em;
+}
+#expenses-component .expense-percentage {
     margin: auto;
     font-weight: bold;
+    font-size: 1.6em;
+    margin-left: 8px;
 }
 
 #expenses-component .expense-label {
     white-space: normal;
+}
+
+#expenses-component #doughnut {
+    padding: 20px 0;
 }
