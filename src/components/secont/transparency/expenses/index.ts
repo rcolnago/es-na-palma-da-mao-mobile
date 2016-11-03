@@ -1,11 +1,8 @@
 import 'angular-ui-router';
 import component from './expenses.component';
 
-import secontShared from '../../shared/index';
-
 const dependencies = [
-    'ui.router',
-    secontShared.name
+    'ui.router'
 ];
 
 export default angular.module( 'transparency-expenses.component', dependencies )

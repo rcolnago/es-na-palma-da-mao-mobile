@@ -4,4 +4,6 @@ export interface SummaryItem {
     value: number;
     percentage: number;
     color: string;
+    list: boolean;
+    plot: boolean;
 }
