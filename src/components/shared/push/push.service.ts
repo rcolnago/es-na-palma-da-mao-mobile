@@ -80,7 +80,8 @@ export class PushService {
      */
     public notify( data: any ): void {
         if ( data.appData && data.appData.state ) {
-            this.transitionService.changeState( data.appDatta.state, data.appData.params, {}, true, false, true );
+            let options = { root: true, reload: true };
+            this.transitionService.changeState( data.appDatta.state, data.appData.params, {}, options );
         }
     }
 }

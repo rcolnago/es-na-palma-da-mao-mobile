@@ -1,0 +1,40 @@
+.espm-header-buttons > i {
+    font-size: 2em;
+    padding: 3px 10px;
+}
+
+#transparency-dashboard-component {
+    background-color: #f7f7f7;
+}
+
+#transparency-dashboard-component .grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#transparency-dashboard-component .grid > .grid-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 150px;
+    min-height: 150px;
+    justify-content: center;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#transparency-dashboard-component .grid .image {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: rgb(200,102,115);
+}
+
+#transparency-dashboard-component .grid .image-stack {
+    font-size: 1em;
+}
+
+#transparency-dashboard-component .grid .item-title {
+    white-space: normal;
+    text-align: center;
+}
