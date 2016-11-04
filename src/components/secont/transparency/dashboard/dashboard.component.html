@@ -1,0 +1,59 @@
+<ion-view>
+    <ion-nav-title>
+        <span>Transparência ES</span>
+    </ion-nav-title>
+
+    <ion-nav-buttons side="right">
+        <div class="espm-header-buttons">
+            <i class="header-button fa fa-info-circle" aria-hidden="true" ng-click="vm.goTo('app.transparency.dashboardAbout')"></i>
+        </div>
+    </ion-nav-buttons>
+
+    <spinner ng-if="uiState.loading"></spinner>
+    <ion-content id="transparency-dashboard-component">
+
+        <div class="grid">
+            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expenses')">
+                <div class="image image-stack">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-map-o fa-stack-2x"></i>
+                        <i class="fa fa-map-marker fa-stack-1x"></i>
+                    </span>
+                </div>
+                <span class="item-title">Mapa dos Recursos Públicos</span>
+            </div>
+            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expenses')">
+                <div class="image">
+                    <i class="fa fa-building-o" aria-hidden="true"></i>
+                </div>
+                <span class="item-title">Obras Públicas por Município</span>
+            </div>
+            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expenses')">
+                <div class="image">
+                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                </div>
+                <span class="item-title">Orçamento</span>
+            </div>
+            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expenses')">
+                <div class="image">
+                    <i class="fa fa-money" aria-hidden="true"></i>
+                </div>
+                <span class="item-title">Despesas</span>
+            </div>
+            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expenses')">
+                <div class="image">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                </div>
+                <span class="item-title">Receitas</span>
+            </div>
+            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expenses')">
+                <div class="image">
+                    <i class="fa fa-area-chart" aria-hidden="true"></i>
+                </div>
+                <span class="item-title">Orçado x Executado</span>
+            </div>
+        </div>
+
+        <error-message error="uiState.error"></error-message>
+    </ion-content>
+</ion-view>

@@ -98,13 +98,40 @@
     "icon": "fa fa-search"
   },
   {
-    "name": "app.transparencyExpenses",
+    "name": "app.transparency",
+    "url": "transparency/",
+    "type": "load",
+    "src": "components/secont/transparency/index",
+    "menu": false,
+    "editable": false
+  },
+  {
+    "name": "app.transparency.dashboard",
+    "url": "transparency/dashboard",
+    "type": "load",
+    "src": "components/secont/transparency/dashboard/index",
+    "menu": true,
+    "editable": false,
+    "group": "Principal",
+    "menuName": "Portal Transparência",
+    "icon": "fa fa-pie-chart"
+  },
+  {
+    "name": "app.transparency.dashboardAbout",
+    "url": "transparency/dashboardAbout",
+    "type": "load",
+    "src": "components/secont/transparency/dashboardAbout/index",
+    "menu": false,
+    "editable": false
+  },
+  {
+    "name": "app.transparency.expenses",
     "url": "transparency/expenses",
     "type": "load",
     "src": "components/secont/transparency/expenses/index",
-    "menu": true,
+    "menu": false,
     "editable": false,
-    "group": "Transparência",
+    "group": "Principal",
     "menuName": "Despesas",
     "icon": "ion-information-circled"
   },

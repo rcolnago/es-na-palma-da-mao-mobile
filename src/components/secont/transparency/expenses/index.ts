@@ -13,11 +13,11 @@ export default angular.module( 'transparency-expenses.component', dependencies )
     .config( [
         '$stateProvider', ( $stateProvider ) => {
             $stateProvider
-                .state( 'app.transparencyExpenses', {
+                .state( 'app.transparency.expenses', {
                     url: 'transparency/expenses',
                     data: { title: 'Despesas' },
                     views: {
-                        content: {
+                        transparencyContent: {
                             template: '<transparency-expenses></transparency-expenses>'
                         }
                     }
