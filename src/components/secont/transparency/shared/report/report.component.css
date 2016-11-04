@@ -1,0 +1,105 @@
+/* Sem labels */
+.expenses-component .summary-header-total,
+.expenses-component .expense-percentage,
+.expenses-component .expense-value {
+    color: #c86673;
+    margin: 0;
+}
+.expenses-component {
+    position: relative;
+}
+
+.expenses-component .expense {
+    padding: 0 16px;
+    height: auto;
+    min-height: 72px;
+}
+.expenses-component .expense > * {
+    flex: 0;
+}
+.expenses-component .expense-details {
+    flex: 1;
+}
+.expenses-component .expense-color {
+    display: none;
+}
+.expenses-component .expense-label {
+    font-size: 1.1em;
+    white-space: normal;
+    margin: 0;
+}
+.expenses-component .expense-percentage {
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-left: 8px;
+}
+
+.expenses-component .summary {
+    display: flex;
+    flex-direction: column;
+}
+
+.expenses-component .summary.desc {
+    flex-direction: column-reverse;
+}
+
+
+/* com labels */
+.expenses-component .summary.labeled .expense{
+    border:none !important;
+    padding: 0 8px 0 0;
+    min-height: 72px;
+}
+
+.expenses-component .summary.labeled .expense-color{
+    margin-right: 8px;
+    display: inline-block;
+    min-height: 72px;
+}
+
+.expenses-component .summary-header .md-subheader-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.expenses-component .summary-header-sort-button{
+    color: #999;
+    position: absolute;
+    top: -10px;
+    right:-10px;
+    margin: 0;
+}
+.expenses-component .summary-header-sort-button.pad{
+    right: 25px;
+}
+
+#btn-graph {
+    margin: 3px;
+    background-color: #c96976 !important;
+    color: #fff !important;
+    position: absolute;
+    right: 3px;
+    top: 0;
+}
+
+#btn-graph.pad {
+    top: 63px;
+}
+
+.expenses-component .label {
+    border-bottom: 1px solid #ddd;
+}
+.summary-header + .label {
+    border-bottom: none;
+}
+
+.expenses-component .label .md-subheader-content {
+    height: 30px;
+    display: flex;
+    align-items: center
+}
+
+.expenses-component #doughnut {
+    padding: 10px 0;
+}
