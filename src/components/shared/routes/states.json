@@ -99,6 +99,13 @@
   },
   {
   {
+    "name": "app.transparencyRevenueDetail",
+    "url": "transparency/revenue/:id/:label",
+    "type": "load",
+    "src": "components/secont/transparency/revenue-detail/index",
+    "menu": false
+  },
+  {
     "name": "app.transparencyRevenues",
     "url": "transparency/revenues",
     "type": "load",
