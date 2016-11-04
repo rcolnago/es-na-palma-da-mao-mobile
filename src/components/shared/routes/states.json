@@ -98,12 +98,51 @@
     "icon": "fa fa-search"
   },
   {
+    "name": "app.transparencyExpenseDetail",
+    "url": "transparency/expense/:id/:label",
+    "type": "load",
+    "src": "components/secont/transparency/expense-detail/index",
+    "menu": false
+  },
   {
     "name": "app.transparencyRevenueDetail",
     "url": "transparency/revenue/:id/:label",
     "type": "load",
     "src": "components/secont/transparency/revenue-detail/index",
     "menu": false
+  },
+  {
+    "name": "app.transparencyExpensesByArea",
+    "url": "transparency/expenses-by-area",
+    "type": "load",
+    "src": "components/secont/transparency/expenses-by-area/index",
+    "menu": true,
+    "editable": false,
+    "group": "Transparência",
+    "menuName": "Despesas por Área",
+    "icon": "ion-information-circled"
+  },
+  {
+    "name": "app.transparencyExpensesByOrigin",
+    "url": "transparency/expenses-by-origin",
+    "type": "load",
+    "src": "components/secont/transparency/expenses-by-origin/index",
+    "menu": true,
+    "editable": false,
+    "group": "Transparência",
+    "menuName": "Despesas por Órgão",
+    "icon": "ion-information-circled"
+  },
+  {
+    "name": "app.transparencyMoneyFlowDetail",
+    "url": "transparency/money-flow/:id",
+    "type": "load",
+    "src": "components/secont/transparency/money-flow-detail/index",
+    "menu": false,
+    "editable": false,
+    "group": "Transparência",
+    "menuName": "Detalhamento",
+    "icon": "ion-information-circled"
   },
   {
     "name": "app.transparencyRevenues",
