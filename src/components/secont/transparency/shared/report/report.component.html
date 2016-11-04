@@ -30,7 +30,12 @@
 					<h3 class="expense-label">{{::expense.label}}</h3>
 					<p class="expense-value">{{::expense.value | currency}}</p>
 				</div>
-				<div class="expense-percentage">{{::expense.percentage}}%</div>
+				<div class="expense-percentage" ng-if="::expense.percentage < 1"> 
+					&lt;1%
+				</div>
+				<div class="expense-percentage" ng-if="::expense.percentage >= 1"> 
+					{{::expense.percentage}}%
+				</div>
 				<md-divider></md-divider>
 			</md-list-item>
 		</md-list>

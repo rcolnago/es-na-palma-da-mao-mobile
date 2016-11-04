@@ -1,9 +1,9 @@
 import reportComponent from './report/report.component';
-import { GraphService } from './graph.service';
+import { TransparencyService } from './transparency.service';
 
 export default angular.module( 'graph.shared', [] )
-                      .service( 'graphService', GraphService )
-                      .component( 'report', reportComponent );
+    .service( 'transparencyService', TransparencyService )
+    .component( 'report', reportComponent );
 
-export * from './graph.service';
+export * from './transparency.service';
 export * from './models/index';

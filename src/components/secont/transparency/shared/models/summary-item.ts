@@ -1,5 +1,5 @@
 export interface SummaryItem {
-    originId: number;
+    originId: string;
     label: string;
     value: number;
     percentage: number;

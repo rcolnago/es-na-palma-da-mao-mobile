@@ -27,6 +27,7 @@
     font-size: 1.1em;
     white-space: normal;
     margin: 0;
+    text-transform: capitalize;
 }
 .expenses-component .expense-percentage {
     font-weight: bold;
@@ -97,7 +98,8 @@
 .expenses-component .label .md-subheader-content {
     height: 30px;
     display: flex;
-    align-items: center
+    align-items: center;
+    text-transform: capitalize;
 }
 
 .expenses-component #doughnut {
