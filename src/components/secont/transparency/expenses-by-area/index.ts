@@ -10,10 +10,10 @@ export default angular.module( 'expenses-by-area.component', dependencies )
     .config( [
         '$stateProvider', ( $stateProvider ) => {
             $stateProvider
-                .state( 'app.transparencyExpensesByArea', {
-                    url: 'transparency/expenses-by-area',
+                .state( 'app.transparency.expensesByArea', {
+                    url: 'expenses-by-area',
                     views: {
-                        content: {
+                        transparencyContent: {
                             template: '<expenses-by-area></expenses-by-area>'
                         }
                     }

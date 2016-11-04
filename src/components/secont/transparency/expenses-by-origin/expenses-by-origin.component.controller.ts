@@ -162,6 +162,6 @@ export class ExpensesByOriginController {
      * @memberOf ExpensesByOriginController
      */
     public openDetails( item: SummaryItem ): void {
-        this.transitionService.changeState( 'app.transparencyExpenseDetail', { id: item.originId, label: item.label }, { type: 'slide', direction: 'left' });
+        this.transitionService.changeState( 'app.transparency.expenseDetail', { id: item.originId, label: item.label }, { type: 'slide', direction: 'left' });
     }
 }

@@ -2,6 +2,9 @@
 	<ion-nav-title>
 		<span>Despesas por Órgão</span>
 	</ion-nav-title>
+	<ion-nav-buttons side="left">
+        <back-button></back-button>
+    </ion-nav-buttons>
 	<spinner ng-if="uiState.loading"></spinner>
 	<ion-content>
 		<report summary="vm.expenses" on-item-click="vm.openDetails(item)"></report>

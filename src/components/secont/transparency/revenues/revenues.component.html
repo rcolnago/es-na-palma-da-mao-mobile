@@ -2,6 +2,9 @@
 	<ion-nav-title>
 		<span>Receitas</span>
 	</ion-nav-title>
+	<ion-nav-buttons side="left">
+        <back-button></back-button>
+    </ion-nav-buttons>
 	<spinner ng-if="uiState.loading"></spinner>
 	<ion-content>
 		<report summary="vm.revenues" on-item-click="vm.openDetails(item)"></report>

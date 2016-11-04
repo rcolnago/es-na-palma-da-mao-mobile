@@ -1,5 +1,5 @@
-import './dashboard-about.component.css';
-import template = require( './dashboard-about.component.html' );
+import './about.component.css';
+import template = require( './about.component.html' );
 
 const directive = () => {
     return {

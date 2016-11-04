@@ -5,7 +5,7 @@
 
     <ion-nav-buttons side="right">
         <div class="espm-header-buttons">
-            <i class="header-button fa fa-info-circle" aria-hidden="true" ng-click="vm.goTo('app.transparency.dashboardAbout')"></i>
+            <i class="header-button fa fa-info-circle" aria-hidden="true" ng-click="vm.goTo('app.transparency.about')"></i>
         </div>
     </ion-nav-buttons>
 
@@ -34,13 +34,19 @@
                 </div>
                 <span class="item-title">Orçamento</span>
             </div>
-            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expenses')">
+            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expensesByArea')">
                 <div class="image">
                     <i class="fa fa-money" aria-hidden="true"></i>
                 </div>
-                <span class="item-title">Despesas</span>
+                <span class="item-title">Despesas por Área</span>
             </div>
-            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expenses')">
+             <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expensesByOrigin')">
+                <div class="image">
+                    <i class="fa fa-money" aria-hidden="true"></i>
+                </div>
+                <span class="item-title">Despesas por Órgão</span>
+            </div>
+            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.revenues')">
                 <div class="image">
                     <i class="fa fa-line-chart" aria-hidden="true"></i>
                 </div>

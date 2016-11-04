@@ -98,53 +98,6 @@
     "icon": "fa fa-search"
   },
   {
-    "name": "app.transparencyExpenseDetail",
-    "url": "transparency/expense/:id/:label",
-    "type": "load",
-    "src": "components/secont/transparency/expense-detail/index",
-    "menu": false
-  },
-  {
-    "name": "app.transparencyRevenueDetail",
-    "url": "transparency/revenue/:id/:label",
-    "type": "load",
-    "src": "components/secont/transparency/revenue-detail/index",
-    "menu": false
-  },
-  {
-    "name": "app.transparencyExpensesByArea",
-    "url": "transparency/expenses-by-area",
-    "type": "load",
-    "src": "components/secont/transparency/expenses-by-area/index",
-    "menu": true,
-    "editable": false,
-    "group": "Transparência",
-    "menuName": "Despesas por Área",
-    "icon": "ion-information-circled"
-  },
-  {
-    "name": "app.transparencyExpensesByOrigin",
-    "url": "transparency/expenses-by-origin",
-    "type": "load",
-    "src": "components/secont/transparency/expenses-by-origin/index",
-    "menu": true,
-    "editable": false,
-    "group": "Transparência",
-    "menuName": "Despesas por Órgão",
-    "icon": "ion-information-circled"
-  },
-  {
-    "name": "app.transparencyRevenues",
-    "url": "transparency/revenues",
-    "type": "load",
-    "src": "components/secont/transparency/revenues/index",
-    "menu": true,
-    "editable": false,
-    "group": "Transparência",
-    "menuName": "Receitas",
-    "icon": "ion-information-circled"
-  },
-  {
     "name": "app.transparency",
     "url": "transparency/",
     "type": "load",
@@ -153,8 +106,55 @@
     "editable": false
   },
   {
+    "name": "app.transparency.expenseDetail",
+    "url": "expense/:id/:label",
+    "type": "load",
+    "src": "components/secont/transparency/expense-detail/index",
+    "menu": false
+  },
+  {
+    "name": "app.transparency.revenueDetail",
+    "url": "revenue/:id/:label",
+    "type": "load",
+    "src": "components/secont/transparency/revenue-detail/index",
+    "menu": false
+  },
+  {
+    "name": "app.transparency.expensesByArea",
+    "url": "expenses-by-area",
+    "type": "load",
+    "src": "components/secont/transparency/expenses-by-area/index",
+    "menu": false,
+    "editable": false,
+    "group": "Transparência",
+    "menuName": "Despesas por Área",
+    "icon": "ion-information-circled"
+  },
+  {
+    "name": "app.transparency.expensesByOrigin",
+    "url": "expenses-by-origin",
+    "type": "load",
+    "src": "components/secont/transparency/expenses-by-origin/index",
+    "menu": false,
+    "editable": false,
+    "group": "Transparência",
+    "menuName": "Despesas por Órgão",
+    "icon": "ion-information-circled"
+  },
+  {
+    "name": "app.transparency.revenues",
+    "url": "revenues",
+    "type": "load",
+    "src": "components/secont/transparency/revenues/index",
+    "menu": false,
+    "editable": false,
+    "group": "Transparência",
+    "menuName": "Receitas",
+    "icon": "ion-information-circled"
+  },
+  {
     "name": "app.transparency.dashboard",
-    "url": "transparency/dashboard",
+    "url": "dashboard",
     "type": "load",
     "src": "components/secont/transparency/dashboard/index",
     "menu": true,
@@ -164,10 +164,10 @@
     "icon": "fa fa-pie-chart"
   },
   {
-    "name": "app.transparency.dashboardAbout",
-    "url": "transparency/dashboardAbout",
+    "name": "app.transparency.about",
+    "url": "about",
     "type": "load",
-    "src": "components/secont/transparency/dashboardAbout/index",
+    "src": "components/secont/transparency/about/index",
     "menu": false,
     "editable": false
   },

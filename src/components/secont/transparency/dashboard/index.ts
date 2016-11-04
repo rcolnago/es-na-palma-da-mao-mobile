@@ -1,12 +1,8 @@
 import 'angular-ui-router';
 import component from './dashboard.component';
-import secontShared from '../../shared/index';
-import DashboardAbout from './about/index';
 
 const dependencies = [
-    'ui.router',
-    secontShared.name,
-    DashboardAbout.name
+    'ui.router'
 ];
 
 export default angular.module( 'transparency-dashboard.component', dependencies )
@@ -16,7 +12,6 @@ export default angular.module( 'transparency-dashboard.component', dependencies 
             $stateProvider
                 .state( 'app.transparency.dashboard', {
                     url: 'dashboard',
-                    data: { title: 'Transparência' },
                     views: {
                         transparencyContent: {
                             template: '<transparency-dashboard></transparency-dashboard>'

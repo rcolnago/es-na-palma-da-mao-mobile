@@ -4,6 +4,7 @@ import dashboard from './dashboard/index';
 import revenues from './revenues/index';
 import revenueDetail from './revenue-detail/index';
 import expenseDetail from './expense-detail/index';
+import about from './about/index';
 import shared from './shared/index';
 
 let dependencies = [
@@ -13,7 +14,8 @@ let dependencies = [
     revenues.name,
     revenueDetail.name,
     dashboard.name,
-    shared.name
+    shared.name,
+    about.name
 ];
 
 

@@ -10,10 +10,10 @@ export default angular.module( 'expense-detail.component', dependencies )
     .config( [
         '$stateProvider', ( $stateProvider ) => {
             $stateProvider
-                .state( 'app.transparencyExpenseDetail', {
-                    url: 'transparency/expense/:id/:label',
+                .state( 'app.transparency.expenseDetail', {
+                    url: 'expense/:id/:label',
                     views: {
-                        content: {
+                        transparencyContent: {
                             template: '<expense-detail></expense-detail>'
                         }
                     }

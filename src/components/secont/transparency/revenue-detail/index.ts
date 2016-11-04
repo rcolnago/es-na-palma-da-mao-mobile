@@ -10,10 +10,10 @@ export default angular.module( 'revenue-detail.component', dependencies )
     .config( [
         '$stateProvider', ( $stateProvider ) => {
             $stateProvider
-                .state( 'app.transparencyRevenueDetail', {
-                    url: 'transparency/revenue/:id/:label',
+                .state( 'app.transparency.revenueDetail', {
+                    url: 'revenue/:id/:label',
                     views: {
-                        content: {
+                        transparencyContent: {
                             template: '<revenue-detail></revenue-detail>'
                         }
                     }

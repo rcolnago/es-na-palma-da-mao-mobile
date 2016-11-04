@@ -10,10 +10,10 @@ export default angular.module( 'expenses-by-origin.component', dependencies )
     .config( [
         '$stateProvider', ( $stateProvider ) => {
             $stateProvider
-                .state( 'app.transparencyExpensesByOrigin', {
-                    url: 'transparency/expenses-by-origin',
+                .state( 'app.transparency.expensesByOrigin', {
+                    url: 'expenses-by-origin',
                     views: {
-                        content: {
+                        transparencyContent: {
                             template: '<expenses-by-origin></expenses-by-origin>'
                         }
                     }

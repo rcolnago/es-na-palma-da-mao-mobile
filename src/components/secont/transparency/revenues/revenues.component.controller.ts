@@ -118,6 +118,6 @@ export class RevenuesController {
      * @memberOf RevenuesController
      */
     public openDetails( item: SummaryItem ): void {
-        this.transitionService.changeState( 'app.transparencyRevenueDetail', { id: item.originId, label: item.label  }, { type: 'slide', direction: 'left' });
+        this.transitionService.changeState( 'app.transparency.revenueDetail', { id: item.originId, label: item.label  }, { type: 'slide', direction: 'left' });
     }
 }
