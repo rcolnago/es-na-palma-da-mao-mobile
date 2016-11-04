@@ -11,7 +11,6 @@
 
     <spinner ng-if="uiState.loading"></spinner>
     <ion-content id="transparency-dashboard-component">
-
         <div class="grid">
             <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expenses')">
                 <div class="image image-stack">
@@ -34,23 +33,23 @@
                 </div>
                 <span class="item-title">Orçamento</span>
             </div>
-            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expensesByArea')">
-                <div class="image">
-                    <i class="fa fa-money" aria-hidden="true"></i>
-                </div>
-                <span class="item-title">Despesas por Área</span>
-            </div>
-             <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expensesByOrigin')">
-                <div class="image">
-                    <i class="fa fa-money" aria-hidden="true"></i>
-                </div>
-                <span class="item-title">Despesas por Órgão</span>
-            </div>
             <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.revenues')">
                 <div class="image">
                     <i class="fa fa-line-chart" aria-hidden="true"></i>
                 </div>
                 <span class="item-title">Receitas</span>
+            </div>
+            <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expensesByArea')">
+                <div class="image expense">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                </div>
+                <span class="item-title">Despesas por Área</span>
+            </div>
+             <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expensesByOrigin')">
+                <div class="image expense">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                </div>
+                <span class="item-title">Despesas por Órgão</span>
             </div>
             <div class="grid-item md-whiteframe-1dp" ng-click="vm.goTo('app.transparency.expenses')">
                 <div class="image">
