@@ -1,0 +1,15 @@
+<ion-view>
+	<ion-nav-title>
+		<span>Detalhamento de Despesa</span>
+	</ion-nav-title>
+	<ion-nav-buttons side="left">
+		<a ng-click="$ionicGoBack()" class="button back-button buttons button-clear header-item nav-back-btn">
+			<i class="ion-android-arrow-back"></i>
+		</a>
+	</ion-nav-buttons>
+	<spinner ng-if="uiState.loading"></spinner>
+	<ion-content>
+		<report summary="vm.expenseDetail" label="vm.label"></report>
+		<error-message error="uiState.error"></error-message>
+	</ion-content>
+</ion-view>
