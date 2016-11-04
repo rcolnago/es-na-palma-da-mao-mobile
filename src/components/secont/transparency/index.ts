@@ -1,7 +1,7 @@
-import expenses from './expenses/index';
+import revenues from './revenues/index';
 import shared from './shared/index';
 let dependencies = [
-    expenses.name,
+    revenues.name,
     shared.name
 ];
 

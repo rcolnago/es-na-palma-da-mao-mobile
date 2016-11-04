@@ -98,14 +98,15 @@
     "icon": "fa fa-search"
   },
   {
-    "name": "app.transparencyExpenses",
-    "url": "transparency/expenses",
+  {
+    "name": "app.transparencyRevenues",
+    "url": "transparency/revenues",
     "type": "load",
-    "src": "components/secont/transparency/expenses/index",
+    "src": "components/secont/transparency/revenues/index",
     "menu": true,
     "editable": false,
     "group": "Transparência",
-    "menuName": "Despesas",
+    "menuName": "Receitas",
     "icon": "ion-information-circled"
   },
   {
