@@ -12,7 +12,10 @@ export default angular.module( 'transparency-about.component', dependencies )
             $stateProvider
                 .state( 'app.transparency.about', {
                     url: 'about',
-                    data: { title: 'Transparência' },
+                    nativeTransitions: {
+                        type: 'slide',
+                        direction: 'up'
+                    },
                     views: {
                         transparencyContent: {
                             template: '<transparency-about></transparency-about>'
